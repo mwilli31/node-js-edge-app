@@ -1,0 +1,16 @@
+{
+  "name": "pxa-versa-ws",
+  "version": "1.0.0",
+  "description": "VersaSense websocket wrapper to retrieve peripheral data",
+  "main": "app.js",
+  "author": "Blayne Watt",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "mqtt": "^2.2.1",
+    "ws": "^1.1.1"
+  }
+}

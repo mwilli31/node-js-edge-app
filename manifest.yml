@@ -1,0 +1,12 @@
+---
+applications:
+
+- name: pxa-versa-ws
+
+  memory: 256M
+  buildpack: nodejs_buildpack
+  command:  node app.js
+env:
+    NODE_ENV: development
+    clientId: 67e1d59f-b75a-4a23-b051-bed1e615f5fa
+    base64ClientCredential: YXNzZW1ibGUgQXYzbmczcnMyMDE2IQ==
